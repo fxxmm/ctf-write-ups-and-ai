@@ -16,4 +16,4 @@ CTF Write-ups
 
 AI Things
 
-[Supercharging Reverse Engineering: Using VS Code to Orchestrate Ghidra and HexStrike AI](https://app.gitbook.com/o/LDkLOZNyFf3yrKcp4fET/s/RAJyy65YWfWsDOtt5DQG/)
+[Supercharging Reverse Engineering: Using VS Code to Orchestrate Ghidra and HexStrike AI](https://app.gitbook.com/o/LDkLOZNyFf3yrKcp4fET/s/CiagqugOrrw0wMvpfEUi/~/edit/~/changes/25/supercharging-reverse-engineering-using-vs-code-to-orchestrate-ghidra-and-hexstrike-ai)
