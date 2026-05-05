@@ -12,6 +12,8 @@ description: Welcome to your team’s developer platform
 
 CTF Write-ups
 
+[CSA Cympire Cywaria 2026](https://app.gitbook.com/o/LDkLOZNyFf3yrKcp4fET/s/CiagqugOrrw0wMvpfEUi/~/edit/~/changes/10/csa-cympire-cywaria-2026)
+
 [NahamCon 2025](https://app.gitbook.com/o/LDkLOZNyFf3yrKcp4fET/s/CiagqugOrrw0wMvpfEUi/~/edit/~/changes/7/nahamcon-2025)
 
 

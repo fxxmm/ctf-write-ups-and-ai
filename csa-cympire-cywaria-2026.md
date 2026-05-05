@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # CSA Cympire Cywaria 2026
 
 ## Round 1
