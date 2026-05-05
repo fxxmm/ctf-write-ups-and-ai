@@ -1,7 +1,3 @@
----
-description: Welcome to your team’s developer platform
----
-
 # fxxmm CTF Page
 
 <h2 align="center">fxxmm's CTF Write-Ups and AI Things</h2>
