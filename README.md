@@ -1,5 +1,5 @@
 ---
-description: https://fx0-4.gitbook.io/fxxmms-ctf-page
+fxxmm ctf page: https://fx0-4.gitbook.io/fxxmms-ctf-page
 ---
 
 # fxxmm CTF Page
