@@ -1,121 +1,19 @@
 ---
-description: 06 May 2026
+fxxmm ctf page: https://fx0-4.gitbook.io/fxxmms-ctf-page
 ---
 
-# Supercharging Reverse Engineering: Using VS Code to Orchestrate Ghidra and HexStrike AI
+# fxxmm CTF Page
 
-https://medium.com/@hungrysuggests/supercharging-reverse-engineering-using-vs-code-to-orchestrate-ghidra-and-hexstrike-ai-7d520d306da5
+<h2 align="center">fxxmm's CTF Write-Ups and AI Things</h2>
 
-### HexStrike AI Set-up:
+<p align="center">CTF Write-ups and AI Things by fxxmm</p>
 
-#### Clone the Repository:
+CTF Write-ups
 
-git clone https://github.com/0x4m4/hexstrike-ai.git
+[CSA Cympire Cywaria 2026](csa-cympire-cywaria-2026.md)
 
-cd hexstrike-ai
+[NahamCon 2025](nahamcon-2025.md)
 
-#### Create a Virtual Environment:
+AI Things
 
-python3 -m venv hexstrike-env
-
-source hexstrike-env/bin/activate
-
-#### Install Dependencies:
-
-pip3 install -r requirements.txt
-
-Launch the Server:
-
-HexStrike usually runs on http://127.0.0.1:8889.
-
-Verify it's healthy by running: curl http://127.0.0.1:8889/health
-
-&#x20;
-
-### Connect
-
-#### Tab 1: Start the Core API Server This is the part that actually runs the hacking tools.
-
-cd \~/hexstrike-ai
-
-source hexstrike-env/bin/activate
-
-python3 hexstrike\_server.py
-
-&#x20;
-
-#### Tab 2: Start the MCP Bridge Now that the core is alive, restart the bridge so it can find it.
-
-cd \~/hexstrike-ai
-
-source hexstrike-env/bin/activate
-
-python3 hexstrike\_mcp.py
-
-&#x20;
-
-![](.gitbook/assets/unknown.png)
-
-&#x20;
-
-![](<.gitbook/assets/unknown (1).png>)
-
-&#x20;
-
-### Ghidra MCP
-
-{% embed url="https://github.com/symgraph/GhidrAssistMCP/releases" %}
-
-{% embed url="https://github.com/symgraph/GhidrAssist/releases" %}
-
-Target: http://localhost:9090/sse
-
-![](<.gitbook/assets/unknown (2).png>)
-
-
-
-
-
-&#x20;
-
-In VS Code, click on the third button to manage MCP servers.
-
-![](<.gitbook/assets/unknown (3).png>)
-
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
-Restart the MCP Server by letting Cline reload its configuration to see the new HexStrike Server. Click on the Manage MCP Servers button. If HexStrike does not show a green status light, click the Refresh or Restart button within that panel.
-
-![](<.gitbook/assets/unknown (8).png>)
-
-The green light next to hexstrike means the server is active and Cline is successfully connected to your pen-testing toolkit.
-
-![](<.gitbook/assets/unknown (4).png>)
-
-&#x20;
-
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-
-
-
-Get an API key from openrouter.ai.&#x20;
-
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-
-
-
-Feel free to try other models.
-
-
-
-Prompt Example:
-
-What is the main function?
-
-What is the password?
-
-Password or flag found in the exe in the Ghidra project.
-
-&#x20;
-
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+[Supercharging Reverse Engineering: Using VS Code to Orchestrate Ghidra and HexStrike AI](https://app.gitbook.com/o/LDkLOZNyFf3yrKcp4fET/s/RAJyy65YWfWsDOtt5DQG/)
