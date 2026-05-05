@@ -18,19 +18,15 @@ View page source.
 
 The flag is {whatacrazygamethatwas}.
 
-
-
 ## NahamCon Day 1
 
 <figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 The flag is ctf{day\_1\_lets\_g00}.
-
-
 
 ## Read The Rules
 
@@ -39,8 +35,6 @@ The flag is ctf{day\_1\_lets\_g00}.
 <figure><img src=".gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 The flag is flag{90bc54705794a62015369fd8e86e557b}.
-
-
 
 ## Quartet
 
@@ -54,71 +48,47 @@ Download the files and place them into one folder.
 
 quartet.z01: Zip multi-volume archive data, at least PKZIP v2.50 to extract
 
-&#x20;
-
 ┌──(kali㉿kali)-\[\~/Downloads]
 
 └─$ mkdir quartet
-
-&#x20;                                                                                                                                                                                                                                         &#x20;
 
 ┌──(kali㉿kali)-\[\~/Downloads]
 
 └─$ mv quartet.z01 quartet.z02 quartet.z03 quartet.z04 quartet
 
-&#x20;
-
 ┌──(kali㉿kali)-\[\~/Downloads/quartet]
 
 └─$ sudo apt-get install p7zip-full
-
-&#x20;
 
 ┌──(kali㉿kali)-\[\~/Downloads/quartet]
 
 └─$ 7z x quartet.z01
 
-&#x20;
-
 ┌──(kali㉿kali)-\[\~/Downloads/quartet]
 
 └─$ 7z x quartet.z02
-
-&#x20;
 
 ┌──(kali㉿kali)-\[\~/Downloads/quartet]
 
 └─$ 7z x quartet.z03
 
-&#x20;
-
 ┌──(kali㉿kali)-\[\~/Downloads/quartet]
 
 └─$ 7z x quartet.z04
-
-&#x20;
 
 ┌──(kali㉿kali)-\[\~/Downloads/quartet]
 
 └─$ strings quartet.jpeg
 
-&#x20;
-
 ![](<.gitbook/assets/unknown (22).png>)
-
-&#x20;
 
 Important Notes:
 
-Order matters: You must start the extraction with the .z01 file, not .zip, as .z01 is the first part of the archive.&#x20;
+Order matters: You must start the extraction with the .z01 file, not .zip, as .z01 is the first part of the archive.
 
 Complete archive: Ensure all parts of the archive are present in the same directory before extracting.
 
-&#x20;
-
 The flag is flag{8f667b09d0e821f4e14d59a8037eb376}.
-
-
 
 ## Technical Support
 
@@ -130,8 +100,6 @@ Go to the Discord and look for the #ctf-support channel.
 
 The flag is flag{a98373a74abb8c5ebb8f5192e034a91c}.
 
-
-
 ## The Mission – Start Here
 
 <figure><img src=".gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
@@ -140,15 +108,13 @@ The flag is flag{a98373a74abb8c5ebb8f5192e034a91c}.
 
 The flag is flag{}.
 
-
-
 ## Flagdle
 
 <figure><img src=".gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
 POST /guess HTTP/1.1
 
@@ -210,8 +176,6 @@ Just aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa until 00000000000000000000000000000000.
 
 The flag is flag{bec42475a614b9c9ba80d0eb7ed258c5}.
 
-
-
 ## TMCB
 
 <figure><img src=".gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
@@ -239,6 +203,3 @@ The flag appeared after I refreshed the page. This was while I was playing aroun
 <figure><img src=".gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
 The flag is flag{7d798903eb2a1823803a243dde6e9d5b}.
-
-
-
