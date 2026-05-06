@@ -6,9 +6,9 @@
 
 <figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 nc -vn 3.219.168.38 8888
 
@@ -506,7 +506,7 @@ sudo nano /etc/hosts
 
 ![](<.gitbook/assets/unknown (13) (1).png>)
 
-![](<.gitbook/assets/unknown (14) (1).png>)
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 impacket-smbclient -hashes :5f754bcffe28b5bb5a1581d9bbd4e98c 'iceberg.local/WIN10-EXEC01$@44.210.83.134'
 
@@ -547,7 +547,7 @@ developer@privesc-medium:\~$ nano exploit.py
 developer@privesc-medium:\~$ chmod +x exploit.py
 
 \
-![](.gitbook/assets/image.png)
+![](<.gitbook/assets/image (2).png>)
 
 The Magician02:23:12
 
@@ -601,7 +601,7 @@ export PATH="/tmp:$PATH"
 
 <br>
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ![](<.gitbook/assets/unknown (6).png>)
 
@@ -611,7 +611,7 @@ Mission 3: Wildcard Injection
 
 Exploit wildcard characters in automated cron scripts. Tar and chown commands process files with dangerous wildcards - create malicious filenames to execute arbitrary commands as root.
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ![](<.gitbook/assets/unknown (7).png>)
 
@@ -800,7 +800,7 @@ Password: P@ssw0rd!2025WebDev
 Flag Location: Retrieve the flag from /root/flag.txt after gaining root access.
 
 \
-![](<.gitbook/assets/image (18).png>)
+![](<.gitbook/assets/image (1).png>)
 
 gdb /opt/challenges/level3/vuln
 
@@ -827,6 +827,8 @@ Flag Location: Retrieve the flag from /root/flag.txt after gaining root access.
 <br>
 
 ![](<.gitbook/assets/unknown (19).png>)
+
+cyberolympians{sh4r3d\_0bj3ct\_1nj3ct\_ld\_libr4ry\_pwn\_2025}
 
 <figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
