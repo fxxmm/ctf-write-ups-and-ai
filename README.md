@@ -2,18 +2,27 @@
 fxxmm ctf page: https://fx0-4.gitbook.io/fxxmms-ctf-page
 ---
 
-# fxxmm CTF Page
+# fxxmm
 
-<h2 align="center">fxxmm's CTF Write-Ups and AI Things</h2>
+<h2 align="center">Hi! Welcome to my page.</h2>
 
-<p align="center">CTF Write-ups and AI Things by fxxmm</p>
+<p align="center">CTF Write-ups, Cyber Security and AI Things by fxxmm</p>
 
-CTF Write-ups
+## [CTF Write-ups](ctf-write-ups/)
 
-[CSA Cympire Cywaria 2026](csa-cympire-cywaria-2026.md)
+[CSA Cympire Cywaria 2026](ctf-write-ups/csa-cympire-cywaria-2026.md)
 
-[NahamCon 2025](nahamcon-2025.md)
+[NahamCon 2025](ctf-write-ups/nahamcon-2025.md)
 
-AI Things
 
-[Supercharging Reverse Engineering: Using VS Code to Orchestrate Ghidra and HexStrike AI](supercharging-reverse-engineering-using-vs-code-to-orchestrate-ghidra-and-hexstrike-ai.md)
+
+## [Cyber Security](cyber-security/)
+
+[Malware](cyber-security/malware/)
+
+
+
+## [AI](ai/)
+
+[Supercharging Reverse Engineering: Using VS Code to Orchestrate Ghidra and HexStrike AI](ai/supercharging-reverse-engineering-using-vs-code-to-orchestrate-ghidra-and-hexstrike-ai.md)
+
