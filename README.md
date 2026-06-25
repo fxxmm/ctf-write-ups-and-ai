@@ -24,7 +24,7 @@ fxxmm ctf page: https://fx0-4.gitbook.io/fxxmms-ctf-page
 
 [EndPoint Forensics](cyber-security/endpoint-forensics/)
 
-[Reverse Engineering](cyber-security/reverse-engineering.md)
+[Reverse Engineering](cyber-security/reverse-engineering/)
 
 
 

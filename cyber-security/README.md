@@ -12,6 +12,6 @@
 [endpoint-forensics](endpoint-forensics/)
 {% endcontent-ref %}
 
-{% content-ref url="reverse-engineering.md" %}
-[reverse-engineering.md](reverse-engineering.md)
+{% content-ref url="reverse-engineering/" %}
+[reverse-engineering](reverse-engineering/)
 {% endcontent-ref %}
