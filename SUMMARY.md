@@ -13,5 +13,6 @@
     * [WebStrike](cyber-security/network-forensics/webstrike.md)
   * [EndPoint Forensics](cyber-security/endpoint-forensics/README.md)
     * [Reveal](cyber-security/endpoint-forensics/reveal.md)
+  * [Reverse Engineering](cyber-security/reverse-engineering.md)
 * [AI](ai/README.md)
   * [Supercharging Reverse Engineering: Using VS Code to Orchestrate Ghidra and HexStrike AI](ai/supercharging-reverse-engineering-using-vs-code-to-orchestrate-ghidra-and-hexstrike-ai.md)

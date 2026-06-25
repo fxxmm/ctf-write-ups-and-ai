@@ -20,6 +20,12 @@ fxxmm ctf page: https://fx0-4.gitbook.io/fxxmms-ctf-page
 
 [Malware](cyber-security/malware/)
 
+[Network Forensics](cyber-security/network-forensics/)
+
+[EndPoint Forensics](cyber-security/endpoint-forensics/)
+
+[Reverse Engineering](cyber-security/reverse-engineering.md)
+
 
 
 ## [AI](ai/)
