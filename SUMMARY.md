@@ -7,5 +7,6 @@
 * [Cyber Security](cyber-security/README.md)
   * [Malware](cyber-security/malware/README.md)
     * [2026-02-28-Traffic Analysis Exercise: Easy as 123](cyber-security/malware/2026-02-28-traffic-analysis-exercise-easy-as-123.md)
+    * [2026-01-31 - TRAFFIC ANALYSIS EXERCISE: LUMMA IN THE ROOM-AH](cyber-security/malware/2026-01-31-traffic-analysis-exercise-lumma-in-the-room-ah.md)
 * [AI](ai/README.md)
   * [Supercharging Reverse Engineering: Using VS Code to Orchestrate Ghidra and HexStrike AI](ai/supercharging-reverse-engineering-using-vs-code-to-orchestrate-ghidra-and-hexstrike-ai.md)
